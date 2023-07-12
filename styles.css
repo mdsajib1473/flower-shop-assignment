@@ -119,6 +119,81 @@ header {
     height: 471px;
 }
 
+.feature-para {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.section3 {
+
+    margin-right: 240px;
+    margin-left: 240px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    height: 320px;
+    display: flex;
+    text-align: center;
+
+}
+
+.service {
+    margin-top: 86px;
+    margin-bottom: 146px;
+    gap: 24px;
+}
+
+.service-pic {
+    width: 88px;
+    height: 88px;
+}
+
+.service-para {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    gap: 100px;
+}
+
+.section4 {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 30px 30px 0px 150px;
+}
+
+.mid-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mid-banner-header {
+    margin-top: 230px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.mid-banner-para {
+    margin-top: 302px;
+    margin-left: 395px;
+    color: rgba(39, 39, 39, 0.60);
+    max-width: 594px;
+}
+.mid-banner-para, .mid-banner-header{
+    margin-right: 24px;
+}
+
+.mid-banner-pic {
+    margin: 100px 429px 100px 1175px;
+    height: 420px;
+}
+
 /* footer related styles */
 footer {
     display: flex;
