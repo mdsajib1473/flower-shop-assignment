@@ -26,6 +26,10 @@ header {
     font-weight: 700;
 }
 
+.primary-color {
+    color: #E55473;
+}
+
 .banner .pic {
     width: 635px;
     height: 800px;
@@ -47,4 +51,26 @@ header {
 .banner-content {
     color: rgba(39, 39, 39, 0.60);
     max-width: 400px;
+}
+
+/* footer related styles */
+footer {
+    display: flex;
+    background: #111010;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer-title {}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.shop {
+    color: white;
+}
+
+.footer-last {
+    color: rgba(255, 255, 255, 0.40);
 }
