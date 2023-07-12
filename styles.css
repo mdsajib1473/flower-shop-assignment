@@ -1,0 +1,50 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header related styles */
+header {
+    background: rgba(229, 84, 115, 0.10);
+
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+    padding: 20px 43px;
+    border: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner .pic {
+    width: 635px;
+    height: 800px;
+    margin-bottom: -6px;
+    z-index: 1;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 708px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.banner-content {
+    color: rgba(39, 39, 39, 0.60);
+    max-width: 400px;
+}
